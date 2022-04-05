@@ -7,6 +7,7 @@ import About from "./components/About";
 const useStyles = makeStyles((theme) => ({
 	root: {
 		minHeight: "100vh",
+		minWidth: "100vw",
 		backgroundImage: `url(${process.env.PUBLIC_URL + "/assets/bg.jpg"})`,
 		backgroundRepeat: "no-repeat",
 		backgroundSize: "cover",
