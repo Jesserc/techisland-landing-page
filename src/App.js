@@ -1,13 +1,14 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { CssBaseline } from "@material-ui/core";
-import Header from "./components/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./components/About";
+import Home from "./pages/Home";
 const useStyles = makeStyles((theme) => ({
 	root: {
-		minHeight: "100vh",
-		minWidth: "100vw",
+		// minHeight: "100vh",
+		// minWidth: "100vw",
+		height: "100%",
 		backgroundImage: `url(${process.env.PUBLIC_URL + "/assets/bg.jpg"})`,
 		backgroundRepeat: "no-repeat",
 		backgroundSize: "cover",
@@ -21,7 +22,7 @@ export default function App() {
 			<Router>
 				{/* <Header /> */}
 				<Routes>
-					<Route path="/" element={<Header />} />
+					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />
 					<Route path="contact" element={<div>Contact</div>} />
 				</Routes>

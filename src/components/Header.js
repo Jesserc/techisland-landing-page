@@ -41,6 +41,8 @@ const useStyles = makeStyles((theme) => ({
 	},
 	container: {
 		textAlign: "center",
+
+		paddingTop: "20px",
 		[theme.breakpoints.down("sm")]: {
 			textAlign: "left",
 			width: "80%",
