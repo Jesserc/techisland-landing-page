@@ -39,11 +39,11 @@ const useStyles = makeStyles((theme) => ({
 		backgroundColor: "#474649",
 		opacity: "0.8",
 		[theme.breakpoints.down("sm")]: {
-			paddingBottom: "20px",
+			paddingBottom: "10px",
 			marginBottom: "20px",
 			backgroundColor: "#474649",
 			opacity: "0.8",
-			width: "90%",
+			width: "100%",
 			// height: "50%",
 			margin: "0 auto",
 			fontSize: "1.3rem",
